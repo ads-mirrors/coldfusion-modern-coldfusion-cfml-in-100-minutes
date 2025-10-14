@@ -159,7 +159,7 @@ You can do things like this:
 result = var?.key?.otherKey ?: "";
 ```
 
-The hook operator (`?`) along with the dot operator (`.`) is known as safe navigation operator(`?.`). The safe navigation operator makes sure that if the variable used before the operator is not defined or java `null`, then instead of throwing an error, the operator returns `undefined` for that particular access.
+The hook operator (`?`) along with the dot operator (`.`) is known as safe navigation operator(`?.`). The safe navigation operator makes sure that if the variable used before the operator is not defined or java `null`, then instead of throwing an error, the operator returns `null` for that particular access.
 
 ## Switch, Case, & Default
 
